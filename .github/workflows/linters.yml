@@ -5,4 +5,4 @@ jobs:
   flake8:
     runs-on: ubuntu-latest
     steps:
-      - run: make lint
+      - run: flake8 brain_games
