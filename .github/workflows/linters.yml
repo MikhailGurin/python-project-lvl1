@@ -1,0 +1,8 @@
+
+name: linters
+on: push
+jobs:
+  flake8:
+    runs-on: ubuntu-latest
+    steps:
+      - run: make lint

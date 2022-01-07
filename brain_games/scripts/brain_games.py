@@ -1,10 +1,12 @@
 #!/usr/bin/env python
+"""Основной скрипт."""
 
 from brain_games.cli import welcome_user
 
 
 def main():
-    print('Welcome to the Brain Games!')
+    """Основная функция."""
+    print('Welcome to the Brain Games!')  # noqa: WPS421
     welcome_user()
 
 
