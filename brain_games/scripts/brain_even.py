@@ -9,7 +9,8 @@ from brain_games.scripts import brain_games
 def main():
     """Основная функция."""
     name = brain_games.main()
-    print('Answer "yes" if the number is even, otherwise answer "no".')  # noqa: WPS421
+    message = 'Answer "yes" if the number is even, otherwise answer "no".'
+    print(message)  # noqa: WPS421
     correct_answers = 0
     while True:
         number = randint(1, 100)
@@ -18,7 +19,8 @@ def main():
         answer = prompt.string('Your answer: ')
         if answer != correct_answer:
             correct_answers = 0
-            print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(answer, correct_answer))
+            template = "'{0}' is wrong answer ;(. Correct answer was '{1}'."
+            print(template.format(answer, correct_answer))
             print("Let's try again, {0}!".format(name))
         else:
             correct_answers += 1
