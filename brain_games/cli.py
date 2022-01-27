@@ -28,6 +28,7 @@ def process_game(header, conditions):
             template = "'{0}' is wrong answer ;(. Correct answer was '{1}'."
             print(template.format(answer, correct_answer))
             print("Let's try again, {0}!".format(name))
+            break
         else:
             correct_answers += 1
             print('Correct!')
