@@ -1,4 +1,4 @@
-"""Игра проверка на чётность."""
+"""Игра калькулятор."""
 from random import randint, choice
 
 from cli import process_game

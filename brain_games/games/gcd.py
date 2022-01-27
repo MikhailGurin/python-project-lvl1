@@ -1,4 +1,4 @@
-"""Игра проверка на чётность."""
+"""Игра найти НОД."""
 from math import gcd
 from random import randint
 
