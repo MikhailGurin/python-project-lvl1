@@ -2,7 +2,7 @@
 from random import randint
 from math import sqrt
 
-from cli import process_game
+from brain_games.cli import process_game
 
 
 def is_prime(number):

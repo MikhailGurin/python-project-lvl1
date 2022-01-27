@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Игра калькулятор."""
 
-from games.calc import start
+from brain_games.games.calc import start
 
 
 def main():

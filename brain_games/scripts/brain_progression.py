@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Игра Арифметическая прогрессия."""
 
-from games.progression import start
+from brain_games.games.progression import start
 
 
 def main():

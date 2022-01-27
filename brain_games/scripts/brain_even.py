@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Игра проверка на чётность."""
 
-from games.even import start
+from brain_games.games.even import start
 
 
 def main():

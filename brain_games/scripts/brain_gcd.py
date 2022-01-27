@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Игра найти НОД."""
 
-from games.gcd import start
+from brain_games.games.gcd import start
 
 
 def main():

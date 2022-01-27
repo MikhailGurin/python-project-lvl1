@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Игра Простое ли число?"""
 
-from games.prime import start
+from brain_games.games.prime import start
 
 
 def main():

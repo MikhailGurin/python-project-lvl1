@@ -1,7 +1,7 @@
 """Игра калькулятор."""
 from random import randint, choice
 
-from cli import process_game
+from brain_games.cli import process_game
 
 
 def get_conditions():

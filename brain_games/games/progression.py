@@ -1,7 +1,7 @@
 """Игра Арифметическая прогрессия."""
 from random import randint
 
-from cli import process_game
+from brain_games.cli import process_game
 
 
 def get_conditions():
